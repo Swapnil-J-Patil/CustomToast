@@ -53,7 +53,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components.findByName("release") ?: throw GradleException("Release component not found"))
                 groupId = "com.github.Swapnil-J-Patil"
-                artifactId = "customToast"
+                artifactId = "CustomToast"
                 version = "1.0.0"
             }
         }
