@@ -51,7 +51,7 @@ import androidx.compose.ui.unit.dp
 
 
 @Composable
-fun CustomToast(
+public fun CustomToast(
     message: String,
     borderColor: Color,
     imageVector: ImageVector,
