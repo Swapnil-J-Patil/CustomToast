@@ -3,7 +3,9 @@
 A customizable Toast component for Jetpack Compose with smooth animations and progress tracking.
 
 ## 📸 Demo  
-![Image](https://github.com/user-attachments/assets/9d977513-35a0-4597-b606-790a504e9307)
+<img src="https://github.com/user-attachments/assets/9d977513-35a0-4597-b606-790a504e9307" width="250" height="380" />
+
+
 ## 📌 Features
 - Supports success, error, and information toasts
 - Customizable text, colors, icons, and duration
