@@ -43,8 +43,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            CustomToastTheme {
-                var showToast by remember { mutableStateOf(false) }
+               /* var showToast by remember { mutableStateOf(false) }
                 var toastMessage by remember { mutableStateOf("Success!") }
                 var progressBarColor by remember { mutableStateOf(red) }
                 var borderColor by remember { mutableStateOf(Color.Transparent) }
@@ -158,8 +157,8 @@ class MainActivity : ComponentActivity() {
                             .background(Color.Transparent),
                         alignment = Alignment.BottomCenter
                     )
-                }
-            }
+                }*/
+
         }
     }
 }
