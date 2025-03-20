@@ -29,7 +29,7 @@ Add the following dependency in your `build.gradle.kts` (Module: app):
 
 ```gradle
 dependencies {
-    implementation ("com.github.Swapnil-J-Patil:CustomToast:v1.0.1")
+    implementation ("com.github.Swapnil-J-Patil:CustomToast:v1.0.2")
 }
 ```
 
