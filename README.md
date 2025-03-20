@@ -3,9 +3,7 @@
 A customizable Toast component for Jetpack Compose with smooth animations and progress tracking.
 
 ## 📸 Demo  
-<img src="https://github.com/user-attachments/assets/9d977513-35a0-4597-b606-790a504e9307" width="250" height="380" />
-
-
+https://github.com/user-attachments/assets/d2210eeb-bbf7-40d3-8a78-f263a24b8c97
 ## 📌 Features
 - Supports success, error, and information toasts
 - Customizable text, colors, icons, and duration
@@ -14,15 +12,24 @@ A customizable Toast component for Jetpack Compose with smooth animations and pr
 
 ## 🚀 Installation
 
-Add the following dependency in your `build.gradle` (Module: app):
+Add the following lines in your `settings.gradle.kts`:
 
-```gradle
-repositories {
-    maven { url 'https://jitpack.io' }
+```settings.gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://jitpack.io")
+    }
 }
 
+```
+Add the following dependency in your `build.gradle.kts` (Module: app):
+
+```gradle
 dependencies {
-    implementation 'com.github.Swapnil-J-Patil:CustomToast:1.0.0'
+    implementation ("com.github.Swapnil-J-Patil:CustomToast:v1.0.1")
 }
 ```
 
