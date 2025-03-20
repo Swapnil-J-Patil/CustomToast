@@ -84,7 +84,12 @@ public fun CustomToast(
     progressBarModifier: Modifier = Modifier
         .fillMaxWidth()
         .height(linerProgressIndicatorSize),
-    spacerWidth: Dp =8.dp
+    spacerWidth: Dp =8.dp,
+    textStartPadding: Dp =10.dp,
+    textEndPadding: Dp =15.dp,
+    textTopPadding: Dp =0.dp,
+    textBottomPadding: Dp =0.dp
+
 ) {
     val progress = remember { Animatable(1f) }
 
@@ -140,7 +145,8 @@ public fun CustomToast(
                             text = message,
                             fontWeight = fontWeight,
                             color = textColor,
-                            style = style
+                            style = style,
+                            modifier = Modifier.padding(start = textStartPadding, end = textEndPadding, top = textTopPadding, bottom = textBottomPadding)
                         )
                     }
                     Icon(
