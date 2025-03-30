@@ -146,6 +146,10 @@ Column(
 | `visibility` | `Boolean` | Controls toast visibility |
 | `alignment` | `Alignment` | Position of the toast |
 
+## 🌟 Show Your Support
+
+If you find this repository helpful, don’t forget to ⭐ star the repo!
+
 ## 🛠️ License
 
 This project is licensed under the MIT License.
